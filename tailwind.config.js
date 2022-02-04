@@ -20,6 +20,7 @@ module.exports = {
       },
       minWidth: {
         plans: '23rem',
+        feature: '30%',
       },
     },
   },

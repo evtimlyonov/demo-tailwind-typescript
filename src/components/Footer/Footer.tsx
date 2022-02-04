@@ -1,12 +1,12 @@
 export const Footer = () => {
   return (
-    <footer className='bg-black mt-10 text-white flex justify-center'>
+    <footer className='bg-black mt-10 text-white flex justify-center p-5'>
       <nav>
-        <ul className='flex p-10'>
-          <li className='main-footer__link'>
+        <ul className='flex'>
+          <li className='mr-5'>
             <a href='/'>Support</a>
           </li>
-          <li className='ml-5'>
+          <li>
             <a href='/'>Terms of Use</a>
           </li>
         </ul>
