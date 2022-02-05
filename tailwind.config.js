@@ -19,7 +19,7 @@ module.exports = {
         '40vh': '40vh',
       },
       minWidth: {
-        plans: '23rem',
+        plans: '20rem',
         feature: '30%',
       },
     },
