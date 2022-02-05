@@ -11,6 +11,9 @@ module.exports = {
         recPlan: '#19b84c',
         recPlanPrice: '#0e4f1f',
         featuresBg: '#ff1b68',
+        packageBg: 'rgba(213, 255, 220, 0.95)',
+        packageDarkGreen: '#0e4f1f',
+        badge: '#ff5454',
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],

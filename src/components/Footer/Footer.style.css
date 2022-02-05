@@ -1,5 +1,5 @@
 .footer {
-  @apply flex justify-center p-5 mt-10 text-white bg-black;
+  @apply flex justify-center p-5 mt-5 text-white bg-black;
 }
 
 .footer ul {
