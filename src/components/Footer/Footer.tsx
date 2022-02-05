@@ -1,8 +1,10 @@
+import './Footer.style.css';
+
 export const Footer = () => {
   return (
-    <footer className='bg-black mt-10 text-white flex justify-center p-5'>
+    <footer className='footer'>
       <nav>
-        <ul className='flex'>
+        <ul>
           <li className='mr-5'>
             <a href='/'>Support</a>
           </li>

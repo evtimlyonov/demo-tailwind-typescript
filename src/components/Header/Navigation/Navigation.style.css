@@ -1,0 +1,11 @@
+nav.menu li {
+  @apply px-5 py-2 font-bold text-navColor hover:text-white;
+}
+
+nav.menu .nav__menu--like-btn {
+  @apply text-white rounded-md bg-hostingButton hover:text-hostingButton hover:bg-white;
+}
+
+nav ul {
+  @apply flex;
+}

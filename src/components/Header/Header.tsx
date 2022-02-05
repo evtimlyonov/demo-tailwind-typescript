@@ -1,9 +1,10 @@
 import { Logo } from './Logo/Logo';
 import { Navigation } from './Navigation/Navigation';
+import './Header.style.css';
 
 export const Header = () => {
   return (
-    <header className='bg-green flex justify-between items-center px-10 h-16'>
+    <header>
       <Logo />
       <Navigation />
     </header>

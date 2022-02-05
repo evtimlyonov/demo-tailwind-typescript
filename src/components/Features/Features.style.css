@@ -1,0 +1,7 @@
+.key-feature {
+  @apply flex flex-col items-center min-w-feature;
+}
+
+.key__feature--circle {
+  @apply w-24 h-24 mb-5 bg-white border border-black rounded-full;
+}
