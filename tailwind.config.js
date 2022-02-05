@@ -13,6 +13,7 @@ module.exports = {
         featuresBg: '#ff1b68',
         packageBg: 'rgba(213, 255, 220, 0.95)',
         packageDarkGreen: '#0e4f1f',
+        packageDarkBg: 'rgba(14, 79, 31, 0.95)',
         badge: '#ff5454',
       },
       fontFamily: {
