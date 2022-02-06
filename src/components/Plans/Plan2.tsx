@@ -1,6 +1,6 @@
 import { PlanInt } from './Plan.model';
 
-export const Plan: React.FC<PlanInt> = (props) => {
+export const Plan2: React.FC<PlanInt> = (props) => {
   return (
     <>
       {props.plan.map((plan) => (

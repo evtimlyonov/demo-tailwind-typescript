@@ -1,17 +1,8 @@
 import { Plan } from './Plan';
+import { Plan2 } from './Plan2';
 import { RecPlan } from './RecPlan';
 
-interface PlanInt {
-  id: number;
-  recommended: boolean;
-  name: string;
-  price: number;
-  subject: string;
-  planFeatures: string[];
-  btn: string;
-}
-
-const plan: PlanInt[] = [
+const plan = [
   {
     id: 1,
     recommended: false,
@@ -26,6 +17,9 @@ const plan: PlanInt[] = [
     ],
     btn: 'CHOOSE PLAN',
   },
+];
+
+const plan2 = [
   {
     id: 2,
     recommended: true,
@@ -40,6 +34,9 @@ const plan: PlanInt[] = [
     ],
     btn: 'CHOOSE PLAN',
   },
+];
+
+const plan3 = [
   {
     id: 3,
     recommended: false,
@@ -63,9 +60,9 @@ export const Plans = () => {
         Choose Your Plan
       </h1>
       <div className='flex items-center justify-center flex-column'>
-        <Plan />
-        <RecPlan />
-        <Plan />
+        <Plan plan={plan} />
+        <RecPlan plan={plan2} />
+        <Plan2 plan={plan3} />
       </div>
     </div>
   );
