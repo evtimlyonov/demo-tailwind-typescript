@@ -15,6 +15,8 @@ module.exports = {
         packageDarkGreen: '#0e4f1f',
         packageDarkBg: 'rgba(14, 79, 31, 0.95)',
         badge: '#ff5454',
+        customers: '#ff5454',
+        lightGray: '#ccc',
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
@@ -25,6 +27,9 @@ module.exports = {
       minWidth: {
         plans: '20rem',
         feature: '30%',
+      },
+      maxWidth: {
+        40: '40rem',
       },
     },
   },
