@@ -29,6 +29,9 @@ module.exports = {
         feature: '30%',
         40: '40rem',
       },
+      maxWidth: {
+        40: '40rem',
+      },
     },
   },
   plugins: [],

@@ -12,7 +12,9 @@ export const Navigation = () => {
           <li>Customers</li>
         </Link>
         <Link to='/start-hosting'>
-          <li className='nav__menu--like-btn'>Start Hosting</li>
+          <li className='nav__menu--like-btn hover:animate-bounce'>
+            Start Hosting
+          </li>
         </Link>
       </ul>
     </nav>
