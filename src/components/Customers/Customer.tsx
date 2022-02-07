@@ -1,10 +1,12 @@
+import { Container } from './Container';
 import { Customers } from './Customers.model';
 
-export const CustomerBasic: React.FC<Customers> = (props) => {
+export const Customer: React.FC<Customers> = (props) => {
   return (
     <>
       {props.customers.map((customer) => (
-        <div className='flex justify-center mt-20 ml-2'>
+        <Container>
+          {/* <div className='flex justify-center mx-2 mt-20'> */}
           {customer.float === 'left' && (
             <div className='w-[80%] max-w-40'>
               <img
@@ -32,7 +34,7 @@ export const CustomerBasic: React.FC<Customers> = (props) => {
               />
             </div>
           )}
-        </div>
+        </Container>
       ))}
     </>
   );

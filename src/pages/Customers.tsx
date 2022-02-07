@@ -1,6 +1,4 @@
-import { Customer1 } from '../components/Customers/Customer1';
-import { Customer2 } from '../components/Customers/Customer2';
-import { CustomerBasic } from '../components/Customers/CustomerBasic';
+import { Customer } from '../components/Customers/Customer';
 
 const customers = [
   {
@@ -24,7 +22,7 @@ const customers = [
 export const Customers = () => {
   return (
     <>
-      <CustomerBasic customers={customers} />
+      <Customer customers={customers} />
     </>
   );
 };

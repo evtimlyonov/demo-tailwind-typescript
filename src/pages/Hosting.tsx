@@ -1,6 +1,6 @@
 export const Hosting = () => {
   return (
-    <div className='flex flex-col items-center'>
+    <div className='flex flex-col items-center mt-20'>
       <h1 className='my-10 text-2xl font-bold text-customers'>
         Awesome! Let's dive right in!
       </h1>

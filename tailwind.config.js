@@ -27,8 +27,6 @@ module.exports = {
       minWidth: {
         plans: '20rem',
         feature: '30%',
-      },
-      maxWidth: {
         40: '40rem',
       },
     },

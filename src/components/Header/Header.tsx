@@ -4,7 +4,7 @@ import './Header.style.css';
 
 export const Header = () => {
   return (
-    <header>
+    <header className='fixed w-screen'>
       <Logo />
       <Navigation />
     </header>
