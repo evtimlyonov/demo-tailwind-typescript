@@ -12,7 +12,9 @@ export const RecPlan: React.FC<PlanInt> = (props) => {
               RECOMMENDED
             </h1>
           )}
-          <h1 className='text-xl font-bold text-white'>{plan.name}</h1>
+          <h1 className='text-xl font-bold text-white'>
+            {plan.name.toUpperCase()}
+          </h1>
           <h2 className='text-3xl font-bold text-recPlanPrice'>
             ${plan.price}/month
           </h2>
