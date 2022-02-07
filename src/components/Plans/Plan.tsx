@@ -13,8 +13,8 @@ export const Plan: React.FC<PlanInt> = (props) => {
           </h2>
           <h3 className='font-bold'>{plan.subject}</h3>
           <ul className='text-center'>
-            {plan.planFeatures.map((fea) => (
-              <li key={Math.random() * 100}>{fea}</li>
+            {plan.planFeatures.map((feat) => (
+              <li key={Math.random() * 100}>{feat}</li>
             ))}
           </ul>
           <div>

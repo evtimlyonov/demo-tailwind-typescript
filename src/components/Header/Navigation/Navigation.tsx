@@ -5,15 +5,15 @@ export const Navigation = () => {
   return (
     <nav className='menu'>
       <ul>
-        <li>
-          <Link to='/packages'>Packages</Link>
-        </li>
-        <li>
-          <Link to='/customers'>Customers</Link>
-        </li>
-        <li className='nav__menu--like-btn'>
-          <Link to='/start-hosting'>Start Hosting</Link>
-        </li>
+        <Link to='/packages'>
+          <li>Packages</li>
+        </Link>
+        <Link to='/customers'>
+          <li>Customers</li>
+        </Link>
+        <Link to='/start-hosting'>
+          <li className='nav__menu--like-btn'>Start Hosting</li>
+        </Link>
       </ul>
     </nav>
   );
