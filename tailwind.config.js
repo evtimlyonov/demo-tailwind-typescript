@@ -20,6 +20,7 @@ module.exports = {
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
+        anton: ['Anton', 'sans-serif'],
       },
       height: {
         '40vh': '40vh',
@@ -40,6 +41,13 @@ module.exports = {
       },
       animation: {
         shacke: 'shacke 1s ease-in-out infinite',
+      },
+      backgroundPosition: {
+        productOverview: '50% 25%',
+      },
+      backgroundImage: {
+        'hero-pattern':
+          "linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url('http://localhost:3000/images/freedom.jpg')",
       },
     },
   },
