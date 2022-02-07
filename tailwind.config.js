@@ -32,6 +32,15 @@ module.exports = {
       maxWidth: {
         40: '40rem',
       },
+      keyframes: {
+        shacke: {
+          '0%, 100%': { transform: 'rotate(-3deg)' },
+          '50%': { transform: 'rotate(3deg)' },
+        },
+      },
+      animation: {
+        shacke: 'shacke 1s ease-in-out infinite',
+      },
     },
   },
   plugins: [],
