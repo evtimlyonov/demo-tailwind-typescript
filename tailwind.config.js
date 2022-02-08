@@ -52,7 +52,7 @@ module.exports = {
       },
       backgroundImage: {
         'hero-pattern':
-          "linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url('http://localhost:3000/images/freedom.jpg')",
+          "linear-gradient(to top, rgba(80, 68, 18, 0.6) 10%, transparent), url('../public/images/freedom.jpg')",
       },
     },
   },

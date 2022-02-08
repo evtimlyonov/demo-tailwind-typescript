@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Navigation = () => {
   return (
-    <nav className='menu'>
+    <nav className='hidden menu sm:block'>
       <ul>
         <Link to='/packages'>
           <li>Packages</li>

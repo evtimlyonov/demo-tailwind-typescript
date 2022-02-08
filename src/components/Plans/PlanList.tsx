@@ -55,11 +55,11 @@ const plan3 = [
 
 export const Plans = () => {
   return (
-    <div className='mt-10'>
+    <div className='flex flex-col mt-10'>
       <h1 className='mb-5 text-3xl font-bold text-center text-green'>
         Choose Your Plan
       </h1>
-      <div className='z-0 flex items-center justify-center flex-column'>
+      <div className='z-0 flex flex-col items-center justify-center lg:flex-row'>
         <Plan plan={plan} />
         <RecPlan plan={plan2} />
         <Plan2 plan={plan3} />

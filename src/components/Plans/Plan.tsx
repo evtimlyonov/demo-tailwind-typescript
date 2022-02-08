@@ -6,7 +6,7 @@ export const Plan: React.FC<PlanInt> = (props) => {
       {props.plan.map((plan) => (
         <article
           key={plan.id}
-          className='flex flex-col items-center justify-between p-2 plan bg-lightGreen h-80 min-w-plans hover:animate-scale'>
+          className='flex flex-col items-center justify-between w-full p-2 my-2 plan bg-lightGreen h-80 lg:min-w-plans lg:hover:animate-scale'>
           <h1 className='text-xl font-bold text-navColor'>
             {plan.name.toUpperCase()}
           </h1>

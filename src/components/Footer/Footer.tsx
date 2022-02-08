@@ -1,11 +1,9 @@
-import './Footer.style.css';
-
 export const Footer = () => {
   return (
-    <footer className='footer'>
+    <footer className='flex justify-center p-5 mt-5 text-white bg-black'>
       <nav>
-        <ul>
-          <li className='mr-5'>
+        <ul className='flex flex-col items-center lg:flex-row'>
+          <li className='lg:mr-5'>
             <a href='/'>Support</a>
           </li>
           <li>
