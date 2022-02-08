@@ -1,6 +1,6 @@
 export const Package2 = () => {
   return (
-    <section className='self-end text-right mt-10 border-4 border-packageDarkGreen bg-packageBg hover:border-hostingButton w-[80%] h-60'>
+    <section className='self-end text-right mt-10 border-4 border-packageDarkGreen bg-packageBg hover:border-hostingButton w-[80%]'>
       <div className='w-full p-6'>
         <a href='/'>
           <h1 className='my-4 text-2xl font-bold'>Our Free Plan</h1>

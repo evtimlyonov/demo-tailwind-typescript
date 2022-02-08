@@ -44,10 +44,20 @@ module.exports = {
           '0%': { transform: 'scale(1)' },
           '100%': { transform: 'scale(1.1)' },
         },
+        menu: {
+          '0%': { transform: 'translateX(-100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        backdrop: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
       },
       animation: {
         shacke: 'shacke 1s ease-in-out infinite',
         scale: 'scale 0.5s ease-in-out forwards',
+        menu: 'menu 0.5s ease-out forwards',
+        backdrop: 'backdrop 0.5s ease-out forwards',
       },
       backgroundPosition: {
         productOverview: '50% 25%',

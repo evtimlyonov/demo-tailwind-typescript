@@ -16,10 +16,10 @@ export const Logo = () => {
       {mobileNav && (
         <>
           <div
-            className='fixed top-0 left-0 z-40 w-full h-full bg-backdrop'
+            className='fixed top-0 left-0 z-40 w-full h-full bg-backdrop animate-backdrop'
             onClick={modal}></div>
 
-          <nav className='fixed top-0 left-0 z-50 h-screen bg-white w-[80%]'>
+          <nav className='fixed top-0 left-0 z-50 h-screen bg-white w-[80%] animate-menu'>
             <ul
               className='flex flex-col justify-center items-center mx-4 w-[90%] h-full text-2xl font-montserrat font-bold'
               onClick={modal}>
@@ -39,8 +39,8 @@ export const Logo = () => {
           </nav>
         </>
       )}
-      <div className='flex items-center justify-center' onClick={modal}>
-        <div className='mr-4 -ml-4 space-y-2 sm:hidden'>
+      <div className='flex items-center justify-center'>
+        <div className='mr-4 -ml-4 space-y-2 sm:hidden' onClick={modal}>
           <span className='block w-8 h-1 bg-gray-600'></span>
           <span className='block w-8 h-1 bg-gray-600'></span>
           <span className='block w-8 h-1 bg-gray-600'></span>
