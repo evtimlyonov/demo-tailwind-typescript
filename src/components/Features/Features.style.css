@@ -3,5 +3,5 @@
 }
 
 .key__feature--circle {
-  @apply w-24 h-24 mb-5 bg-white border border-black rounded-full;
+  @apply w-24 h-24 p-4 mb-5 border border-black rounded-full bg-feat-circle-bg;
 }

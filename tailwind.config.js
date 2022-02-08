@@ -18,6 +18,7 @@ module.exports = {
         customers: '#ff5454',
         lightGray: '#ccc',
         backdrop: 'rgba(0, 0, 0, 0.5)',
+        'feat-circle-bg': '#ffcede',
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
@@ -52,12 +53,18 @@ module.exports = {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
+        'move-up': {
+          '0%': { transform: 'translateY(0%)' },
+          '50%': { transform: 'translateY(-2%)' },
+          '100%': { transform: 'translateY(-5%)' },
+        },
       },
       animation: {
         shacke: 'shacke 1s ease-in-out infinite',
         scale: 'scale 0.5s ease-in-out forwards',
         menu: 'menu 0.5s ease-out forwards',
         backdrop: 'backdrop 0.5s ease-out forwards',
+        'move-up': 'move-up 200ms ease-out forwards',
       },
       backgroundPosition: {
         productOverview: '50% 25%',
