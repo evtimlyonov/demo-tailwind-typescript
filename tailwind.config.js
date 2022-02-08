@@ -17,10 +17,12 @@ module.exports = {
         badge: '#ff5454',
         customers: '#ff5454',
         lightGray: '#ccc',
+        backdrop: 'rgba(0, 0, 0, 0.5)',
       },
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
         anton: ['Anton', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
       },
       height: {
         '40vh': '40vh',
