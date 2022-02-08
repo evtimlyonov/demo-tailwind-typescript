@@ -59,7 +59,7 @@ export const Plans = () => {
       <h1 className='mb-5 text-3xl font-bold text-center text-green'>
         Choose Your Plan
       </h1>
-      <div className='flex items-center justify-center flex-column'>
+      <div className='z-0 flex items-center justify-center flex-column'>
         <Plan plan={plan} />
         <RecPlan plan={plan2} />
         <Plan2 plan={plan3} />

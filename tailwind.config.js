@@ -38,9 +38,14 @@ module.exports = {
           '0%, 100%': { transform: 'rotate(-3deg)' },
           '50%': { transform: 'rotate(3deg)' },
         },
+        scale: {
+          '0%': { transform: 'scale(1)' },
+          '100%': { transform: 'scale(1.1)' },
+        },
       },
       animation: {
         shacke: 'shacke 1s ease-in-out infinite',
+        scale: 'scale 0.5s ease-in-out forwards',
       },
       backgroundPosition: {
         productOverview: '50% 25%',
