@@ -6,7 +6,7 @@ export const RecPlan: React.FC<PlanInt> = (props) => {
       {props.plan.map((plan) => (
         <article
           key={plan.id}
-          className='z-10 flex flex-col items-center justify-between w-full p-2 my-2 shadow-2xl plan bg-recPlan h-96 lg:min-w-plans lg:hover:animate-scale'>
+          className='z-10 flex flex-col items-center justify-between w-full p-2 my-2 transition duration-500 shadow-2xl plan bg-recPlan h-96 lg:min-w-80 lg:hover:scale-110'>
           {plan.recommended && (
             <h1 className='w-full p-2 font-bold text-center bg-white rounded-md shadow-2xl text-recPlan'>
               RECOMMENDED
