@@ -15,10 +15,8 @@ export const Logo = () => {
     <>
       <>
         <div
-          className={`fixed top-0 left-0 bg-backdrop ${
-            mobileNav
-              ? 'transition duration-500  w-full h-full opacity-1 block'
-              : 'opacity-0'
+          className={`fixed top-0 left-0 bg-backdrop transition duration-500 w-full h-full ${
+            mobileNav ? 'visible opacity-1' : 'invisible opacity-0'
           }`}
           onClick={modal}></div>
 
